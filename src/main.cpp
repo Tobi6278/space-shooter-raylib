@@ -7,7 +7,11 @@ int main(){
     
     while(WindowShouldClose() == false){
         BeginDrawing();
+        
+        ClearBackground(RAYWHITE);
 
+        DrawLine(100, 100, 700, 500, RED);
+        
         EndDrawing();
     }
     
